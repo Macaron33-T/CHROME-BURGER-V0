@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chrome & Burger</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      .header {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem;
+        text-align: center;
+      }
+      .nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 1rem;
+      }
+      .hero {
+        background-image: url("https://via.placeholder.com/1200x600.png?text=Delicious+Burgers");
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        text-align: center;
+        padding: 4rem 1rem;
+      }
+      .hero h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+      .cta-button {
+        background-color: #ff9800;
+        color: #fff;
+        padding: 0.75rem 1.5rem;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+      .section {
+        padding: 2rem 1rem;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .menu-item {
+        margin-bottom: 1rem;
+      }
+      .footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+      @media (max-width: 600px) {
+        .hero h1 {
+          font-size: 2rem;
+        }
+        .nav a {
+          display: block;
+          margin-bottom: 0.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Chrome & Burger</h1>
+      <nav class="nav">
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h1>The Best Burgers in Town</h1>
+        <p>Made with fresh, locally-sourced ingredients.</p>
+        <a href="#menu" class="cta-button">See Our Menu</a>
+      </div>
+    </section>
+
+    <section id="menu" class="section">
+      <h2>Menu</h2>
+      <div class="menu-item">
+        <h3>Classic Chrome Burger</h3>
+        <p>A juicy beef patty with all the classic fixings. $10</p>
+      </div>
+      <div class="menu-item">
+        <h3>Spicy Jalapeño Burger</h3>
+        <p>For those who like it hot. $11</p>
+      </div>
+      <div class="menu-item">
+        <h3>Veggie Burger</h3>
+        <p>A delicious plant-based option. $9</p>
+      </div>
+    </section>
+
+    <section id="about" class="section" style="background-color: #fff">
+      <h2>About Us</h2>
+      <p>
+        Chrome & Burger is a family-owned food truck dedicated to serving up the
+        most delicious burgers on the planet. We believe in using only the
+        freshest ingredients and providing a friendly, welcoming atmosphere.
+      </p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact Us</h2>
+      <p>
+        You can find us at the corner of Main St and 1st Ave, Monday-Friday from
+        11am to 8pm.
+      </p>
+      <p>Follow us on social media: @chromeburger</p>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2025 Chrome & Burger. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
